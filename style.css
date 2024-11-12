@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    scroll-behavior: smooth;
+
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    padding: 12px;
+    background-color: gray;
+    height: 81px;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    font-size:30px;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 11px 13px;
+}
+
+.navlist li a:hover{
+    background-color:rgb(212, 230, 207);
+   
+}
+
+/* Header css */
+
+#Home {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+}
+
+#Home h1 {
+    margin: 23px 61px;
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+#Home p {
+    margin: 0px 61px;
+    font-size: 28px;
+}
+
+
+
+
+/* First Blog css */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: aqua;
+}
+
+#Lords h1 {
+    margin: 0px 132px;
+    font-size: 40px;
+}
+
+#Lords h2 {
+    margin: 11px 161px;
+    font-size: 33px
+}
+
+#Lords p {
+    margin: 0px 161px;
+    font-size: 24px;
+}
+
+#Lords img {
+    margin: 19px 161px;
+    width: 460px;
+}
+
+.p1 {
+    display: flow-root list-item;
+}
+
+.p2 {
+    display: flow-root list-item;
+}
+
+.p3 {
+    display: flow-root list-item;
+}
+
+.p4 {
+    display: flow-root list-item;
+}
+
+iframe {
+    margin: 12px 161px;
+}
+
+/* Second Blog css */
+#Dharamshala {
+    background-color: antiquewhite;
+}
+
+#Dharamshala h1 {
+    margin: 0px 132px;
+    font-size: 40px;
+}
+
+#Dharamshala h2 {
+    margin: 11px 161px;
+    font-size: 33px
+}
+
+#Dharamshala p {
+    margin: 0px 161px;
+    font-size: 24px;
+}
+
+#Dharamshala img {
+    margin: 19px 161px;
+    width: 460px;
+}
+
+.p1 {
+    display: flow-root list-item;
+}
+
+.p2 {
+    display: flow-root list-item;
+}
+
+.p3 {
+    display: flow-root list-item;
+}
+
+.p4 {
+    display: flow-root list-item;
+}
+
+iframe {
+    margin: 12px 161px;
+}
+
+
+/* Third Blog Css */
+
+#modistadium {
+    background-color: cadetblue;
+}
+
+#modistadium h1 {
+    margin: 0px 132px;
+    font-size: 40px;
+}
+
+#modistadium h2 {
+    margin: 11px 161px;
+    font-size: 33px
+}
+
+#modistadium p {
+    margin: 0px 161px;
+    font-size: 24px;
+}
+
+#modistadium img {
+    margin: 19px 161px;
+    width: 460px;
+}
+
+.p1 {
+    display: flow-root list-item;
+}
+
+.p2 {
+    display: flow-root list-item;
+}
+
+.p3 {
+    display: flow-root list-item;
+}
+
+.p4 {
+    display: flow-root list-item;
+}
+
+iframe {
+    margin: 12px 161px;
+}
+
+
+/* About Css */
+
+#aboutme {
+    background-color: lavender;
+}
+
+#aboutme h1 {
+    margin: 0px 132px;
+    font-size: 40px;
+}
+
+#aboutme p {
+    margin: 21px 132px;
+    font-size: 24px;
+    margin: 0px 132px;
+
+}
+
+form {
+
+    display: table-caption;
+    margin: 27px 149px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+}
+
+/* Footer Css */
+
+footer {
+    border-top: 1px solid black;
+
+}
+
+.text-footer {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif
+}
